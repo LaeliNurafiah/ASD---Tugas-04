@@ -1,5 +1,4 @@
 package Tugas04;
-import java.util.Scanner;
 public class No7 {
      public static void main(String[] args) {
         int [] A = {25,7,9,13,3};
@@ -31,11 +30,9 @@ public class No7 {
         }
     }
     public static void search(int [] A){
-        int Data;
-        Scanner data = new Scanner(System.in);
+        int Data = 13;
         System.out.println();
-        System.out.print("Masukkan Angka yang ingin dicari : ");
-        Data = data.nextInt();
+        System.out.println("Data yang dicari adalah : " + Data);
         int batasawal = 0;
         int batasakhir = A.length -1;
         int ketemu = 0;
